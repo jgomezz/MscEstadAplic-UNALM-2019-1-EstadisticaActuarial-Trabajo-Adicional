@@ -1,0 +1,36 @@
+'''
+Curso : Estadistica Actuarial
+Semestre : 2019 - 1
+Trabajo : Adicional
+Autor : Jaime Gomez Marin
+Fecha : 22/07/1972
+'''
+
+'''
+1.- Leer la tabla de mortalidad
+'''
+
+
+
+import pandas as pd
+
+NAMEFILE = "TMSPP2017.txt"
+
+data = pd.read_csv(NAMEFILE)
+print(data)
+
+
+'''
+2.- Calcular e interpretar 3 probabilidades (distintas, 
+     por ejemplo npx, nqx, m|nqx) 
+'''
+
+
+
+'''
+3.- Mostrar un ejemplo de primas (planteamiento del problema, 
+    cálculo e interpretación).
+'''
+
+
+
